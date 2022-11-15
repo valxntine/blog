@@ -55,7 +55,7 @@ html {
   }
   
   .nav-links a:hover, a:focus {
-    background-color: #ff9776;
+    color: #6e21eb;
   }
   
   .expanded {
@@ -71,10 +71,14 @@ html {
       width: auto;
       background: none;
     }
+
+    .nav-links a + a {
+        padding: 0px 0px 0px 10px;
+    }
   
     .nav-links a {
       display: inline-block;
-      padding: 15px 20px;
+      padding: 0px;
     }
   
     .hamburger {
